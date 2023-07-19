@@ -1,0 +1,291 @@
+/* body {
+  font-family: "Rift";
+} */
+
+/*  */
+.about-head-list a {
+  color: black !important;
+  font-size: 30px;
+  font-weight: 600;
+}
+.about-head-list ul {
+  align-items: flex-start !important;
+}
+.about-head-list ul li {
+  margin: 20px 0px;
+}
+.head_list a {
+  margin: 0px;
+}
+header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+.full-menu {
+  position: fixed;
+  /* background: #000; */
+  transition: all 1000ms ease-in-out;
+  /* height: 50vh; */
+  /* background-color: red !important; */
+  box-shadow: 0px 4px 5px #ccc;
+}
+.second-header {
+  /* display: none; */
+  display: flex;
+  /* d-flex justify-content-between pt-2 pb-2; */
+  /* justify-content: space-between; */
+  padding: 10px 0px;
+  /* display: none; */
+  /* position: fixed; */
+}
+.head_list a {
+  margin: 0px 35px;
+}
+.head_list li button {
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+/*  */
+
+/*    Banner Section  css start */
+
+.main-Banner {
+  padding: 150px 0px;
+  max-width: 1000px;
+}
+.main-Banner h1 {
+  margin-bottom: 15px;
+  font-family: "Rift";
+  font-weight: bold;
+}
+.main-Banner button {
+  box-shadow: 0 13px 26px #16253d29;
+  padding: 20px 45px;
+  margin-top: 30px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.head-button2 {
+  border: 2px solid black;
+}
+
+.head-button1 {
+  border: 2px solid var(--buttonblue);
+}
+.head-button1:hover {
+  background-color: var(--white);
+  transition: all 300ms ease-in-out;
+  border: 2px solid var(--white);
+  color: var(--black);
+}
+.head-button1:hover a {
+  color: black;
+}
+.head-button2:hover {
+  background-color: black !important;
+  transition: all 300ms ease-in-out;
+}
+.head-button2:hover a {
+  color: var(--white);
+}
+/*    Banner Section  css end */
+
+/* photo section css start */
+.photo-image-left {
+  display: flex;
+  align-items: center;
+}
+.photo-image-right {
+  padding: 60px;
+  max-width: 750px;
+  margin-left: auto;
+  left: 47%;
+  position: absolute;
+  z-index: 1;
+}
+
+/*    global section start        */
+.global {
+  padding-top: 70px;
+}
+.section-head {
+  max-width: 1164px;
+  margin: auto;
+}
+.section-head h2 {
+  font-size: var(--fs60);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2d3243;
+  line-height: 62px;
+}
+.section-head p {
+  font-size: 33px;
+  line-height: 51px;
+  margin-top: 25px;
+  color: var(--black);
+}
+.location-logo {
+  margin-top: 90px;
+}
+.location-logo ul li {
+  margin: 0px 45px;
+}
+/*    global section end        */
+
+/* line css start */
+.line {
+  padding-top: 70px;
+}
+/* line css end */
+
+/*  how we work css start */
+.how-we-work {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.how-we-work .section-head {
+  margin-bottom: 50px;
+}
+.work-list ul li {
+  padding: 0px 20px;
+  text-align: center;
+}
+.work-list ul li h4 {
+  margin-top: 20px;
+  font-size: var(--fs22);
+  line-height: 31px;
+  color: var(--black);
+  font-weight: var(--fw500);
+  padding: 0px 11px;
+  font-family: "Roboto";
+}
+/*  how we work css end */
+
+/*  core value start */
+.core-value {
+  padding-top: 70px;
+  padding-bottom: 55px;
+}
+.core-value .section-head h4 {
+  margin: 15px 0px;
+  line-height: 45px;
+  color: var(--black);
+}
+.core-value .section-head h6 {
+  font-size: var(--fs20);
+  color: var(--black);
+  font-weight: var(--fw600);
+  line-height: 23px;
+}
+/* Core value end */
+
+/* Full word start */
+.full {
+  padding-bottom: 90px;
+}
+.full ul li h2 {
+  font-size: 30px;
+  opacity: 0.1;
+  margin: 3px 5px;
+}
+.full ul .active {
+  opacity: 100;
+}
+.full ul li h2:hover {
+  opacity: 100;
+  transition-duration: 500ms;
+}
+/* Full word end */
+
+/* why mobcoder start */
+.why {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+.why_image {
+  width: calc(100% / 2 - 10px);
+  margin: 5px;
+  position: relative;
+}
+.why_image::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#ffffff00 30%, #26479dc7 65%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.why_image figure img {
+  width: 100%;
+  height: 100%;
+}
+.why_image figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px 36px;
+}
+.why_image figcaption h3 {
+  margin-bottom: 15px;
+}
+.why-content {
+  margin-top: 40px;
+}
+/* why mobcoder end */
+
+/*  idea section start */
+.haveIdea {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+.idea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.idea figcaption h3 {
+  margin-bottom: 15px;
+}
+.idea button {
+  padding: 15px 60px;
+  box-shadow: 0 13px 26px #16253d29;
+  border-radius: 5px;
+}
+.idea-letter figcaption {
+  margin-left: 40px;
+}
+.idea-button::after {
+  content: "";
+  background-image: url(../image/have-arrow.png);
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 146px;
+  width: 100%;
+  display: block;
+  left: 22%;
+  z-index: -1;
+  position: absolute;
+}
+/*  idea section end */
+
+.body-test {
+  overflow: hidden;
+}
+.container {
+  overflow: hidden;
+}
+.body-test .full-menu {
+  background-color: #ccc !important;
+  height: 100vh;
+}
+#crossLine {
+  display: none;
+}
+.second-header {
+  display: none;
+}
